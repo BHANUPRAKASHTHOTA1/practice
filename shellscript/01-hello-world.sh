@@ -6,4 +6,6 @@ PERSON1=bhanu
 PERSON2=sreenu
 
 echo " $PERSON1 : Hi $PERSON2, Good Morning"
-echo " $PERSON2 : I am fine , How are you $PERSON1"
+echo " $PERSON2 : Good Morning $PERSON1"
+echo " $PERSON1 : How are you $PERSON2"
+echo " $PERSON2 : I am fine , How about you $PERSON1"
