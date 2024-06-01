@@ -2,7 +2,7 @@
 
 echo "I am learning AWS DevOps, From join DevOps institute"
 PERSON1=BHANU
-PERSON2=Institute Trainer
+PERSON2=Institute-Trainer
 
 
 echo "$PERSON1 : I want to join Devops Course, What is the fees ?"
