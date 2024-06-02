@@ -11,6 +11,8 @@ then
 
 fi 
 
+echo "user id is : #USERID"
+
 yum install mysql -y
 
 if [ $? -ne 0 ]
