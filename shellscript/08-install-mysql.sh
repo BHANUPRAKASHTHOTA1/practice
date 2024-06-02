@@ -6,8 +6,8 @@ if [ $USERID -ne 0 ]
 then
     echo "ERROR :: Please run the below command with sudo access"
     exit 1
-else
-    echo "You are running on sudo access"
+# else
+#     echo "You are running on sudo access"
 
 fi 
 
