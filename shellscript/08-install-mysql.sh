@@ -18,11 +18,11 @@ yum install mysql -y
 
 if [ $? -ne 0 ]
 then
-    echo "Installation of my sql is success"
+    echo "Installation of my sql is error"
     exit 1
 
 else
-    echo " Installation of my sql is unsuccess"
+    echo " Installation of my sql is success"
 
 fi 
 
