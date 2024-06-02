@@ -11,7 +11,7 @@ then
 
 fi 
 
-echo "user id is : #USERID"
+echo $?
 
 yum install mysql -y
 
