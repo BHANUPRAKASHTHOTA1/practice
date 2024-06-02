@@ -7,7 +7,7 @@ VALIDATE(){
         exit 1
 
     else
-        echo " Installation .... SUCCESS"
+        echo "Installation .... SUCCESS"
 
     fi 
 
@@ -27,3 +27,6 @@ fi
 yum install mysql -y
 
 VALIDATE $? 
+
+yum install postfix -y
+VALIDATE $?
