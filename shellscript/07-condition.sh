@@ -1,4 +1,5 @@
 #!/bin/bash
+SCRIPT_NAME=$0
 NUMBER=$1
 
 if [ $NUMBER -gt 10 ]
