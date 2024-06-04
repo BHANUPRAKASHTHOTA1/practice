@@ -17,7 +17,7 @@ then
     exit 1
 fi
 
-validations(){
+VALIDATE(){
     if [ $1 -ne 0 ];
     then
         echo -e "Installng $2 ..... $R FAILURE $N"
