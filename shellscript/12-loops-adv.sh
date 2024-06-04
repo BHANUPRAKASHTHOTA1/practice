@@ -18,7 +18,7 @@ then
 fi
 
 validations(){
-    if [ $1 -ne 0]
+    if [ $1 -ne 0 ]
     then
         echo -e "Installng $2 ..... $R FAILURE $N"
         exit 1
@@ -31,7 +31,7 @@ validations(){
 for i in $@
 do
     yum list installed $i &>>LOGFILE
-    if [ $i -ne 0]
+    if [ $i -ne 0 ]
     then
         echo "$i is not installed,let's installed"
         yum install $i -y &>>LOGFILE
