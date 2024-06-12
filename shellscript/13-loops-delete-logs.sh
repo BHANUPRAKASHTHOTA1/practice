@@ -1,7 +1,7 @@
 #!/bin/bash
 
 APP_LOGS_DIR=/home/centos/app-logs
-DATE=$(date +%F:%H:%M:%S)
+DATE=$(date +%F:%H:%M:%S )
 LOGDIR=/home/centos/shellscript-logs
 SCRIPT_NAME=$0
 LOGFILE=$LOGDIR/$0-$DATE.log
